@@ -46,7 +46,7 @@ export default function App() {
         ref={canvasRef}
         className="absolute bg-bgpri top-0 left-0 w-full h-full"
       ></canvas>
-      <div className="absolute top-0 left-0 w-full h-full flex justify-center overflow-y-auto ">
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center overflow-y-auto ">
         <div className="max-w-[1440px] w-full ">
           <Navbar />
           <Home />
@@ -55,8 +55,9 @@ export default function App() {
           <Apply/>
           <Support/>
           <Features/>
-          <Footer/>
+          
         </div>
+        <Footer/>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-lg3 to-lg4 pt-2 pb-8">
+    <div className="bg-gradient-to-r from-lg3 to-lg4 pt-2 pb-8 w-full">
       <div className="mx-auto my-4 flex justify-center gap-10">
         <a href="https://www.linkedin.com/in/aswin-raaj">
           <span className="text-xs opacity-90 text-slate-100">
